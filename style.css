@@ -117,4 +117,27 @@
   .popular-feature {
     font-weight: bold;
   }
-  
+
+  .testomonial {
+      display: inline-flex;
+      /* justify-content: flex-start; */
+      align-items: center;
+  }
+
+  .testomonial .card {
+      background-color: #077caa;
+      color: white;
+      margin: 2rem 0;
+      padding: 10px;
+      text-align: center;
+      border-radius: 10px;
+      margin: 2rem;
+
+  }
+
+  .testomonial img {
+      /* width: 200px; */
+      height: 200px;
+      object-fit: scale-down;
+      border-radius: 30px;
+  }
